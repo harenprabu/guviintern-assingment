@@ -1,7 +1,7 @@
 //validation
 $(window).ready(() => {
     $.ajax({
-        url: '/guviintern-main/backend/validation.php',
+        url: '/guviintern-main/php/validation.php',
         type: 'GET',
         data: {},
         success: function (data) {
