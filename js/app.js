@@ -1,7 +1,7 @@
 //signup
 
 $('#signup').click(function () {
-    location.href = '/guviintern-main/routes/signup.html';
+    location.href = '/guviintern-main/signup.html';
 
 });
 
