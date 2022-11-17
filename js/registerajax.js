@@ -7,7 +7,7 @@ $('#register').click(function (e) {
     else {
         $.ajax({
             type: 'POST',
-            url: '/guviintern-main/backend/authentication.php',
+            url: '/guviintern-main/php/authentication.php',
             data: {
                 register: "register",
                 username: username,
@@ -21,7 +21,7 @@ $('#register').click(function (e) {
                 }
                 else {
                     alert(data.msg);
-                    location.href = "/guviintern-main/routes/home.html"
+                    location.href = "/guviintern-main/home.html"
                 }
             },
             error: function (data) {
