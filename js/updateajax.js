@@ -12,7 +12,7 @@ $('#updateDetailsDiv #update').click(function (e) {
         $.ajax({
             type: 'POST',
             dataType: 'json',
-            url: '/guviintern-main/backend/update.php',
+            url: '/guviintern-main/php/update.php',
             data: {
                 update: "update",
                 age: age,
